@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>HairCraze</title>
+        <link rel="stylesheet" href="hairCraze.css">
+        <link href="https://fonts.googleapis.com/css2?
+        family=Kufam:wght@500&family=Merriweather&
+        family=Roboto+Condensed:ital,wght@1,300&display=swap"
+         rel="stylesheet">
+    </head>
+    <body>
+        <div class="top">
+        <div class="col-3"><img src="logo.jpg" ></div>
+        <div class="col-6"><b><em>H A I R C R A Z E</em></div>
+    </div>
+        <div class="topnav" id ='dropdownmenu'>
+                <a href="#" class="active">Home</a>
+                <a href="#" >HairStyle</a>
+                <a href="#" >HairCare</a>
+                <a href="#" class="right">LogIn</a>
+                <a  class="right dropdownicon" href="javascript:void(0);"  onClick = "dropdownitem();">&#9776;</a>
+        </div>
+        <div class="container">
+            <div class='row'>
+               <div class="col-6">
+                   
+                   <div class="quote">
+                       <h1 class="heading"><i>Hair is the crown <br> you never take off</i></h1>
+                    </div>
+                    <div class="quote">
+                        <h1 class="heading"><i>Life is short. <br> Make your each hair flip fabulous</i></h1>
+                     </div>
+                </div> 
+               <div class= "col-6"><img src="hair.jpg"></div> 
+            </div>
+        </div>
+        <hr>
+        <div class="container-1">
+            <h1><i>Top Trending</i></h1>
+            <hr>
+            <div class='row'>
+                <div class ="col-4 ">
+                    <img src="french-braid.jpg">
+                    <h2><i>French Braid</i></h2>
+                    <hr>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        , quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class ="col-4 ">
+                    <img src="bun.jpg">
+                    <h2><i>Bun HairStyle</i></h2>
+                    <hr>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        , quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class ="col-4 ">
+                    <img src="french-braid.jpg">
+                    <h2><i>French Braid</i></h2>
+                    <hr>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        , quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                        pariatur.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <p>Copyright@2020</p>
+            
+        <script>
+            function dropdownitem(){
+            var x= document.getElementById("dropdownmenu");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+            }
+            else{
+                x.className = "topnav";
+            }
+            }
+            
+        </script>
+       
+    </body>
+</html>
